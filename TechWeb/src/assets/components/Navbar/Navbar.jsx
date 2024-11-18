@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaCartShopping } from 'react-icons/fa6'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from 'react-icons/rx';
-import {Link} from "react-router-dom"
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -18,8 +18,8 @@ const Navbar = () => {
             <div>
 
               <Link to='/'>
-                <h3 class="font-bold text-2xl">
-                  Tech<span class="text-red-500">Shop</span>
+                <h3 className="font-bold text-2xl">
+                  Tech<span className="text-red-500">Shop</span>
                 </h3>
               </Link>
               

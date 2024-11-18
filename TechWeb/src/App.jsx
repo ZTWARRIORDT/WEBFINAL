@@ -5,6 +5,8 @@ import Cart from "./assets/pages/Cart/Cart"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AllProducts from './assets/components/AllProducts/AllProducts'
 import Login from './assets/pages/Login/Login'
+import SignUp from './assets/pages/SignUp/SignUp'
+
 
 function App() {
   
@@ -14,10 +16,11 @@ function App() {
         <BrowserRouter>
         
           <Routes>
-            <Route path="/" element={<Home/>}></Route>
-            <Route path="/Cart" element={<Cart/>}></Route>
-            <Route path="/AllProducts" element={<AllProducts/>}></Route>
-            <Route path="/Login" element={<Login/>}></Route>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/Cart" element={<Cart/>}/>
+            <Route path="/AllProducts" element={<AllProducts/>}/>
+            <Route path="/Login" element={<Login/>}/>
+            <Route path="/Signup" element={<SignUp/>}/>
           </Routes>
           
         </BrowserRouter>
@@ -26,4 +29,4 @@ function App() {
   )
 }
 
-export default App
+export default App;;
